@@ -5,7 +5,7 @@ import openai
 # --- Load Excel File ---
 @st.cache_data
 def load_data():
-    return pd.read_excel("trlx_sh_pb_australia_commercial_msrp_aud_Q2_2025.xlsx", sheet_name=None)
+    return pd.read_excel("pricebook_au_q2-2025.xlsx", sheet_name=None)
 
 excel_data = load_data()
 
