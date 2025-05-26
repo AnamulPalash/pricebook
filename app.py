@@ -13,7 +13,7 @@ excel_data = load_data()
 st.title("📊 Excel Q&A with OpenAI")
 
 # --- OpenAI API Key Input ---
-openai_api_key = st.text_input("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", type="password")
+openai_api_key = st.text_input("what is your API key?", type="password")
 
 # --- User Question ---
 question = st.text_input("❓ Ask a question about the spreadsheet")
